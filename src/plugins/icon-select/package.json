@@ -1,0 +1,33 @@
+{
+    "name": "strapi-plugin-icon-select",
+    "description": "A strapi custom field for selecting any icon based on the ISO 3166-1 icon code standard.",
+    "keywords": [
+        "strapi",
+        "strapi-plugin",
+        "custom-fields",
+        "icon"
+    ],
+    "version": "1.0.0",
+    "strapi": {
+        "name": "icon-select",
+        "description": "Icon Select custom field",
+        "kind": "plugin",
+        "displayName": "Icon Select"
+    },
+    "dependencies": {
+        "i18n-iso-icons": "^7.5.0"
+    },
+    "author": {
+        "name": "Marcel Soler",
+        "email": "msoler75@yahoo.es",
+        "url": "https://github.com/msoler75"
+    },
+    "license": "MIT",
+    "peerDependencies": {
+        "@strapi/strapi": "^4.4.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/msoler75"
+    }
+}

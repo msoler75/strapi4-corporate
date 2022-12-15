@@ -1,0 +1,44 @@
+{
+  "dependencies": {
+    "@bn-digital/strapi-plugin-field-uuid": "^1.1.7",
+    "@ckeditor/strapi-plugin-ckeditor": "^0.0.4",
+    "@strapi/plugin-color-picker": "^4.5.0",
+    "@strapi/plugin-graphql": "^4.0.0",
+    "@strapi/plugin-i18n": "4.5.0",
+    "@strapi/plugin-users-permissions": "4.5.0",
+    "@strapi/strapi": "4.5.0",
+    "better-sqlite3": "7.4.6",
+    "lodash.set": "^4.3.2",
+    "strapi-plugin-country-select": "^1.0.0",
+    "strapi-plugin-menus": "^1.1.0",
+    "strapi-plugin-multi-select": "^1.0.0",
+    "strapi-plugin-navigation": "^2.2.2",
+    "strapi-plugin-populate-deep": "^1.1.2",
+    "strapi-plugin-slugify": "^2.3.1"
+  },
+  "name": "backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "dev": "strapi develop",
+    "dev2": "strapi develop --watch-admin",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "803f4d6c-a7a7-4585-920d-125568c2b7b0",
+    "template": "@strapi/template-corporate@^1.0.0",
+    "starter": "@strapi/starter-next-corporate"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
